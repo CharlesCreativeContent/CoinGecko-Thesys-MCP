@@ -9,24 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@crayonai/react-ui": "^0.7.10",
+    "@crayonai/react-ui": "^0.8.9",
     "@crayonai/stream": "^0.6.4",
-    "@modelcontextprotocol/sdk": "^1.12.1",
-    "@thesysai/genui-sdk": "^0.6.18",
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "@thesysai/genui-sdk": "^0.6.26",
     "next": "15.2.4",
-    "openai": "^4.91.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "openai": "^4.104.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^20.19.6",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.30.1",
     "eslint-config-next": "15.2.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
   }
 }
