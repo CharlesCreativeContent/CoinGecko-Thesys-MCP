@@ -16,10 +16,10 @@ interface ChartColorPalette {
 
 export default function Home() {
   return (
-    <ThemeProvider>
     
     <C1Chat agentName="CoinGecko + C1" apiUrl="/api/chat" 
     logoUrl='https://static.coingecko.com/gecko-logo-new-color.svg'
+    mode="light"
     theme={{ ...themePresets.jade,
       defaultChartPalette: [
         "#34495e",
@@ -27,9 +27,8 @@ export default function Home() {
         "#f39c12",
         "#e74c3c",
         "#8e44ad",
-      ]
-      mode: "light" }  } />
-      
-      </ThemeProvider>
+      ],
+  } } 
+     />
   );
 }
