@@ -2,7 +2,7 @@
 
 <img src="https://shawncharles.com/images/CoinGecko.gif"/>
 
-<img src="https://thesys.dev/c1/Badge.svg">
+{<img src="https://thesys.dev/c1/readme-badge.svg">](https://thesys.dev)
 
 This is a [C1 by Thesys](https://thesys.dev) project that demonstrates MCP (Model Context Protocol) server integration with streaming chat capabilities.
 
