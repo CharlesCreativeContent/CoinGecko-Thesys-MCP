@@ -10,7 +10,6 @@
   <a href="https://x.com/thesysdev"><img src="https://img.shields.io/twitter/url/https/twitter/follow/thesysdev?style=social&label=Follow%20%40thesys" alt="Thesys: Visit" /></a>
   <a href="https://discord.gg/Pbv5PsqUSv"><img src="https://img.shields.io/badge/Discord-Join-blue.svg" alt="Discord: Join" /></a>
   <img src="https://github.com/thesysdev/crayon/actions/workflows/deploy.yml/badge.svg" alt="Deploy Status" />
-  <img src="https://github.com/thesysdev/crayon/actions/workflows/build.yml/badge.svg" alt="Build Status" />
 </p>
 
 This is a [C1 by Thesys](https://thesys.dev) project that demonstrates MCP (Model Context Protocol) server integration with streaming chat capabilities.
