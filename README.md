@@ -113,38 +113,63 @@ This project demonstrates how to integrate MCP servers with C1 chat:
    - Returns results back to the conversation
    - Shows thinking states during execution
 
-## Supported MCP Servers
+find_coin_ids
 
-Currently configured for:
-- **Filesystem Server**: File system operations (read, write, list files) - no authentication required
-- **Fallback Server**: Alternative MCP server if filesystem fails
+Look up CoinGecko IDs by coin name or symbol
+
+get_price_simple
+
+Current price for one or more coins
+
+get_historical_data
+
+Historical price, market cap & volume
+
+get_ohlc_data
+
+OHLC/candlestick data for a coin & interval
+
+get_trending
+
+Trending search list on CoinGecko
+
+
+Note — When running with a Pro API key you unlock additional endpoints such as get_new_coins_list, get_coins_top_gainers_losers, and advanced on‑chain tools.
 
 ### Available Tools
 
-The filesystem MCP server provides these tools:
-- `read_file` - Read contents of a specific file
-- `list_directory` - List files and directories
-- `get_file_info` - Get metadata about files
-- `search_files` - Search for files by name or content
+The CoinGeck MCP server provides these tools and more:
+- `get_coins_list` - Paginated list of supported cryptocurrencies
+- `find_coin_ids` - Look up CoinGecko IDs by coin name or symbol
+- `get_price_simple` - Current price for one or more coins
+- `get_historical_data` - Historical price, market cap & volume
+- `get_ohlc_data` - OHLC/candlestick data for a coin & interval
+- `get_trending` - Trending search list on CoinGecko
+- `get_global_market` - Global crypto market metrics
+- `get_pools_trending` - Top trending DEX pools on GeckoTerminal
+- `refresh_cache` - Refresh the local coin metadata cache
+
+Note — When running with a Pro API key you unlock additional endpoints such as get_new_coins_list, get_coins_top_gainers_losers, and advanced on‑chain tools.
 
 ## Thinking States
 
 The system includes visual thinking states that show users:
 - 💭 "Processing your request..." - Initial analysis
-- 💭 "Using tool: read_file" - When accessing files
-- 💭 "Processing results..." - Analyzing tool results
+- 💭 "Using tool: get_price_simple” – While fetching data
+- 💭 "Processing results..." - Parsing & formatting the response
 
 ## Tips for Best Results
 
-1. **Be Specific**: Instead of "show me files", try "list all TypeScript files in the src/app directory"
-2. **Ask for Analysis**: Request explanations like "explain what this configuration does"
-3. **Combine Requests**: "Read package.json and explain the main dependencies"
-4. **Request Comparisons**: "Compare the structure of route.ts and mcp.ts"
-5. **Ask for Help**: "Help me understand how the MCP integration works"
+1. **Be Specific**: “Price of BTC and ETH in EUR” instead of “crypto prices”.
+2. **Combine Queries**: “Show BTC 7‑day chart and latest news headlines.”
+3. **Use Filters**: “Find DeFi coins with market cap between $100 M and $1 B.”
+4. **Ask for Visuals**: Charts and tables improve clarity.
+5. **Cache Wisely**: Use refresh_cache sparingly to stay within rate limits.
 
 ## Learn More
 
 - [C1 Documentation](https://docs.thesys.dev) - Learn about Thesys C1
+- [CoinGecko MCP Documentation](https://mcp.api.coingecko.com/) - Learn more about Coin Gecko MCP Servers
 - [Thinking States Guide](https://docs.thesys.dev/guides/thinking-states) - Visual progress indicators
 - [MCP Specification](https://spec.modelcontextprotocol.io/) - Model Context Protocol details
 - [MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript SDK for MCP
