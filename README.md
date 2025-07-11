@@ -55,70 +55,43 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## What You Can Do - Examples
 
-Once the app is running, you can ask the AI to help with various file system tasks. Here are some examples:
+Once the app is running, you can ask the AI to help with crypto‑focused tasks. Try prompts like:
 
-### 📁 **Project Exploration**
+### 📁 **Market Data & Prices**
 ```
-"What files are in this project?"
-"Show me the project structure"
-"List all TypeScript files in the src directory"
-"What's in the components folder?"
-"Find all configuration files in this project"
+“What’s the current price of Bitcoin in USD?”
+“Show me the top 10 coins by market cap.”
+“Compare the 24‑hour percentage change of ETH, SOL, and DOGE.”
 ```
 
-### 📄 **File Analysis**
+### 📊 **Historical Analysis**
 ```
-"Read and explain the package.json file"
-"What dependencies does this project use?"
-"Show me the TypeScript configuration"
-"What's in the README file?"
-"Analyze the main route file"
+“Plot a 30‑day price chart for Ethereum.”
+“How did Cardano’s market cap change over the last year?”
+“Give me the OHLC data for BTC from 2021‑01‑01 to 2021‑06‑30.”
 ```
 
-### 🔍 **Code Review & Understanding**
+### 🔍 **Discovery & Trends**
 ```
-"Explain what the MCP client does"
-"How does the chat route work?"
-"What components are in the app directory?"
-"Show me the API structure"
-"What styling files are used?"
+“List today’s top gainers and losers.”
+“Which NFTs are trending this week?”
+“Find memecoins launched in the past 14 days with > $10 M volume.”
 ```
 
-### 🏗️ **Development Assistance**
+### 🧭 **On‑Chain & DEX Insights**
 ```
-"Help me understand this Next.js project structure"
-"What environment variables does this app need?"
-"Explain the MCP integration implementation"
-"Show me how thinking states are implemented"
-"What's the difference between route.ts and mcp.ts?"
+“Show the top pools on Uniswap v3 (Ethereum) right now.”
+“Get the largest holders of the PEPE token.”
+“Display a heatmap of 24‑hour DEX volume by network.”
 ```
 
-### 📊 **Project Analysis**
+### 🏗️ **Development Assistance**
 ```
-"How many lines of code are in the main files?"
-"What external packages does this project depend on?"
-"Show me all the import statements in the chat route"
-"What API endpoints are available?"
-"Analyze the project's architecture"
+“Help me integrate the CoinGecko MCP client in Next.js.”
+“What environment variables are required for local CoinGecko MCP?”
+“Explain the difference between tools=dynamic and static tools.”
 ```
 
-### 🐛 **Debugging Help**
-```
-"Check if there are any TODO comments in the code"
-"Show me error handling patterns used"
-"What logging is implemented?"
-"Find all console.log statements"
-"Check for any hardcoded values"
-```
-
-### 🎨 **UI & Styling**
-```
-"What CSS/styling approach is used?"
-"Show me the Tailwind configuration"
-"What UI components are imported?"
-"How is the layout structured?"
-"What fonts and themes are configured?"
-```
 
 ## MCP Integration
 
