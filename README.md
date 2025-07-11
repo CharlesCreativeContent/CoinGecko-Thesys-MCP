@@ -113,8 +113,6 @@ This project demonstrates how to integrate MCP servers with C1 chat:
    - Returns results back to the conversation
    - Shows thinking states during execution
 
-Note — When running with a Pro API key you unlock additional endpoints such as get_new_coins_list, get_coins_top_gainers_losers, and advanced on‑chain tools.
-
 ### Available Tools
 
 The CoinGeck MCP server provides these tools and more:
