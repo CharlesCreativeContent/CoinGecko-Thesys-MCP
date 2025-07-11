@@ -13,12 +13,11 @@ This is a [C1 by Thesys](https://thesys.dev) project that demonstrates MCP (Mode
 
 ## Features
 
-- **C1 Chat Integration**: Powered by Thesys C1 for intelligent conversations
+- **C1 Chat Integration**: Powered by Thesys C1 for Real-time streaming of AI conversations
 - **MCP Server Support**: Connects to MCP servers to extend AI capabilities with tools
 - **Tool Integration**: Automatically lists and calls tools from connected MCP servers
-- **Streaming Responses**: Real-time streaming of AI responses
-- **Thinking States**: Visual indicators showing what the AI is doing
-- **File System Operations**: Built-in filesystem access via MCP (no authentication required)
+- **“One‑liner” public endpoint**: Drop the SSE URL and you’re live, without dealing with auth or SDKs. 
+- **Rich analytical endpoints**: 	OHLCV, market‑cap charts, top gainers/losers, new‑coin listings, on‑chain holder charts, etc.
 
 ## Getting Started
 
