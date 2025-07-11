@@ -8,7 +8,7 @@
   <a href="https://linkedin.com/company/thesysdev"><img src="https://img.shields.io/badge/Connect:_Linkedin-blue?logo=linked-in&logoColor=white" alt="Linkedin: Connect" /></a>
   <a href="https://x.com/thesysdev"><img src="https://img.shields.io/twitter/url/https/twitter/follow/thesysdev?style=social&label=Follow%20%40ThesysDev" alt="Twitter: Follow" /></a>
 </p>
-<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linked-in&logoColor=white">
+
 This is a [C1 by Thesys](https://thesys.dev) project that demonstrates MCP (Model Context Protocol) server integration with streaming chat capabilities.
 
 ## Features
