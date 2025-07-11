@@ -113,27 +113,6 @@ This project demonstrates how to integrate MCP servers with C1 chat:
    - Returns results back to the conversation
    - Shows thinking states during execution
 
-find_coin_ids
-
-Look up CoinGecko IDs by coin name or symbol
-
-get_price_simple
-
-Current price for one or more coins
-
-get_historical_data
-
-Historical price, market cap & volume
-
-get_ohlc_data
-
-OHLC/candlestick data for a coin & interval
-
-get_trending
-
-Trending search list on CoinGecko
-
-
 Note — When running with a Pro API key you unlock additional endpoints such as get_new_coins_list, get_coins_top_gainers_losers, and advanced on‑chain tools.
 
 ### Available Tools
