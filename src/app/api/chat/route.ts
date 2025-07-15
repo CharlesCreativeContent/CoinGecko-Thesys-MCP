@@ -53,7 +53,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     });
 
     const llmStream = await client.beta.chat.completions.runTools({
-      model: "c1-nightly",
+      model: "c1/anthropic/claude-3.5-sonnet/v-20250709",
       messages: [
         {
           role: 'system',
