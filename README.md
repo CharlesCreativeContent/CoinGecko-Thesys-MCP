@@ -1,6 +1,6 @@
 # MCP with C1 Chat
 
-<img src="https://shawncharles.com/images/CoinGecko2.gif">
+<img src="https://shawnimages.netlify.app/images/CoinGecko2.gif">
 
 This is a [C1 by Thesys](https://thesys.dev) project that demonstrates MCP (Model Context Protocol) server integration with streaming chat capabilities.
 
