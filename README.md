@@ -1,6 +1,6 @@
 # CoinGecko MCP with C1 Chat
 
-<img src="https://shawnimages.netlify.app/images/CoinGecko2.gif"><img/>
+<img src="https://shawnimages.netlify.app/images/CoinGecko.gif"><img/>
 
 This is a [C1 by Thesys](https://thesys.dev) project that demonstrates MCP (Model Context Protocol) server integration with streaming chat capabilities.
 
