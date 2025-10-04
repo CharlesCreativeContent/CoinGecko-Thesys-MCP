@@ -169,3 +169,36 @@ The system includes visual thinking states that show users:
 - [Thinking States Guide](https://docs.thesys.dev/guides/thinking-states) - Visual progress indicators
 - [MCP Specification](https://spec.modelcontextprotocol.io/) - Model Context Protocol details
 - [MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript SDK for MCP
+
+
+
+
+
+## More Projects
+
+<table bordercolor="#66b2b2">
+  
+  <tr>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/runware-pokemon-generator">Runware Pokemon Generator</a>
+      <br />
+        <a target="_blank" href="https://github.com/CharlesCreativeContent/runware-pokemon-generator">
+          <img src="https://github.com/CharlesCreativeContent/runware-pokemon-generator/raw/main/public/runware.gif?raw=true" width="100%" alt="CoinGecko-Thesys-MCP"/>
+        </a>
+    </td>
+    <td width="33.3%"  style="align:center;" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/elastic-path-demo">Elastic Path API</a>
+        <br />
+      <a target="_blank" href="https://github.com/CharlesCreativeContent/elastic-path-demo">
+            <img src="https://github.com/CharlesCreativeContent/myimages/raw/main/images/elastic-path-demo.gif?raw=true" width="100%"  alt="Elastic Path API"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/Demo-Day">Travel Web-Application</a>
+        <br />
+        <a target="_blank" href="https://github.com/CharlesCreativeContent/Demo-Day">
+          <img src="https://github.com/CharlesCreativeContent/CharlesCreativeContent/raw/main/images/gif1.gif?raw=true" width="100%" alt="Portfolio"/>
+        </a>
+    </td>
+  </tr>
+</table>
